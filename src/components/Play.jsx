@@ -214,10 +214,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[0][0] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[0][0] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(0, 0, "aa")}
                 id="aa"
@@ -226,10 +226,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[0][1] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[0][1] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(0, 1, "ab")}
                 id="ab"
@@ -238,10 +238,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[0][2] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[0][2] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(0, 2, "ac")}
                 id="ac"
@@ -253,10 +253,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[1][0] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[1][0] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(1, 0, "ba")}
                 id="ba"
@@ -265,10 +265,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[1][1] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[1][1] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(1, 1, "bb")}
                 id="bb"
@@ -277,10 +277,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[1][2] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[1][2] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(1, 2, "bc")}
                 id="bc"
@@ -292,10 +292,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[2][0] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[2][0] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(2, 0, "ca")}
                 id="ca"
@@ -304,10 +304,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[2][1] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[2][1] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(2, 1, "cb")}
                 id="cb"
@@ -316,10 +316,10 @@ function Play() {
                 className="shadow-md shadow-black/50"
                 src={`${
                   data[2][2] == undefined
-                    ? "img/empty.svg"
+                    ? "empty.svg"
                     : data[2][2] == 1
-                    ? "img/x.svg"
-                    : "img/o.svg"
+                    ? "x.svg"
+                    : "o.svg"
                 }`}
                 onClick={() => handleClick(2, 2, "cc")}
                 id="cc"
