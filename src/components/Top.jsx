@@ -22,11 +22,11 @@ function Top() {
       <div className="w-[80px] h-fit">
         <div className="flex items-center justify-center gap-x-1 h-[40px]">
           <img
-            src="../img/turn_x.svg"
+            src="turn_x.svg"
             style={{ width: "30px", height: "30px" }}
           />
           <img
-            src="../img/turn_o.svg"
+            src="turn_o.svg"
             style={{ width: "30px", height: "30px" }}
           />
         </div>
@@ -41,7 +41,7 @@ function Top() {
       <div className="w-[80px] h-fit flex justify-end">
         <img
           className="cursor-pointer"
-          src="../img/restart.svg"
+          src="restart.svg"
           onClick={() => handleClick()}
         />
       </div>
